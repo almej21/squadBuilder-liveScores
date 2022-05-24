@@ -1,6 +1,7 @@
 this is a squad builder app using react, with a live scoreboard for live football scores!
 
 ![app](https://user-images.githubusercontent.com/101586426/170102481-517bc4a7-949c-4af6-b0dd-284b930cf9ef.gif)
+
 (youtube demo link)
 https://www.youtube.com/watch?v=i_HU1G2V8CI&ab_channel=saiyan.of.legend
 
