@@ -7,8 +7,7 @@ CI&ab_channel=saiyan.of.legend
 
 
 
-![Uploading WhatsApp Image 2022-04-05 at 13.45.01.jpeg…]()
-
+![liveScores](https://user-images.githubusercontent.com/101586426/170102971-febe786c-150a-4f56-a533-7fbd8334f4db.jpeg)
 
 In the project directory, you can run:
 
