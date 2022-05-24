@@ -1,0 +1,174 @@
+.SquadBuilder {
+  position: relative;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+img , button{
+  cursor: pointer;
+}
+
+
+
+.card-appearance-animation {
+  animation: cardsAppearence 0.3s alternate;
+  
+}
+
+.squadTemplateDIV {
+  position: relative;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1153px;
+  
+}
+
+#emptySquadIMG {
+  height: 100%;
+  cursor: default;
+}
+
+.player-options-component {
+  width: 1100px;
+  position: fixed;
+  top: 15%;
+  animation: cardsAppearence 0.3s alternate;
+}
+
+.opacity-animation {
+  animation: cardsAppearence 0.5s alternate;
+
+}
+  
+.addPlayerBTN:hover{
+  animation: glow 2.3s alternate infinite;
+  transform: scale(1.04);
+  
+}
+  
+.BackBTN{
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  
+}
+
+.BackBTN:hover{
+  transform: scale(1.04);
+}
+
+#GK {
+  position: absolute;
+  bottom: 6.5%;
+  left: 47.4%;
+}
+
+#RB {
+  position: absolute;
+  bottom: 20%;
+  right: 25%;
+}
+#RCB {
+  position: absolute;
+  bottom: 15%;
+  right: 35.5%;
+}
+#LCB {
+  position: absolute;
+  bottom: 15%;
+  left: 36.7%;
+}
+#LB {
+  position: absolute;
+  bottom: 20%;
+  left: 26%;
+}
+#RCM {
+  position: absolute;
+  bottom: 35%;;
+  right: 36%;
+}
+#CM {
+  position: absolute;
+  bottom: 34%;
+  left: 47.4%
+}
+#LCM {
+  position: absolute;
+  bottom: 35%;
+  left: 37%;
+}
+#RW {
+  position: absolute;
+  bottom: 55%;
+  right: 36%;
+}
+#ST {
+  position: absolute;
+  bottom: 57%;
+  left: 47.4%
+}
+#LW {
+  position: absolute;
+  bottom: 55%;
+  left: 37%;
+}
+
+.player-options {
+  opacity: 0.3;
+
+}
+
+#exit-squad-builder-mode {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  font-size: 36px;
+  background-color: black;
+  color: white;
+  border-radius: 13px;
+  padding: 5px;
+  border: 3px solid grey;
+  width: 110px;
+} 
+
+#exit-add-player-mode-btn {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 36px;
+  background-color: black;
+  color: white;
+  border-radius: 13px;
+  padding: 5px;
+  border: 3px solid grey;
+  width: 110px;
+
+}
+
+#exit-add-player-mode-btn:hover{
+  border: 3px solid white;
+  margin-top: 1px;
+}
+
+.single-player {
+  padding-left: 15px;
+  padding-top: 4%;
+  animation: cardsAppearence 1s alternate;
+}
+
+@keyframes cardsAppearence {
+  0%{opacity: 0.2;}
+  100%{opacity: 1;}
+}
+
+@keyframes glow {
+  50% {
+    filter: drop-shadow(5px -3px 17px rgba(248,252,248,0.8));
+  }
+}

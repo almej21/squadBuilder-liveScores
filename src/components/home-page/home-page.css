@@ -1,0 +1,128 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BTN {
+  position: relative;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+  border: 3px solid grey;
+  width: 250px;
+  margin-top: 3px;
+}
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+
+}
+
+.liveFixtures{
+  border-radius: 30px;
+}
+
+.menu-buttons {
+  position: absolute;
+  left: 10%;
+  top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60%;
+  width: 20%;
+}
+
+.homepageDIV {
+  position: relative;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1128px;
+  width: fit-content;
+}
+
+#homepage {
+  height: 100%;
+  cursor: default;
+}
+
+.BTN:hover {
+  transform: scale(1.04);
+}
+
+.liveFixturesDIV {
+  position: absolute;
+  position: flex;
+  width: 1060px;
+  height: 470px;
+  bottom: 31.2%;
+  right: 195px;
+  font-family: "LCDFont";
+  
+}
+
+.fixtures{
+  position: absolute;
+  width:fit-content;
+  font-size: 56px;
+  font-weight: 100;
+  color: white;
+  font-family: inherit;
+}
+
+#min1{
+  top: 40px;
+  left: 60px;
+}
+#home-team1{
+  top: 40px;
+  left: 218px;
+}
+#home-score1{
+  top: 40px;
+  right: 110px;
+}
+
+#away-team1{
+  top: 100px;
+  left: 218px;
+}
+#away-score1{
+  top: 100px;
+  right: 110px;
+}
+
+#min2
+{
+  top: 210px;
+  left: 60px;
+}
+#home-team2{
+
+  top: 210px;
+  left: 218px;
+}
+#home-score2{
+  top: 210px;
+  right: 110px;
+}
+
+#away-team2{
+  top: 270px;
+  left: 218px;
+}
+#away-score2{
+  top: 270px;
+  right: 110px;
+}
+
+@font-face {
+  font-family: "LCDFont";
+  src: url("C:/Users/almog/Documents/Apps/my-app/LED-Dot-Matrix.ttf");
+}
